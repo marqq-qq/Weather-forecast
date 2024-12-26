@@ -10,7 +10,7 @@ city_data = requests.get(url_city_coordinates).json()
 latitude = city_data[0]['lat']
 longitude = city_data[0]['lon']
 
-#you can also use the imperial unit of measurement (to do this, replace metric with imperial in the "units" column)
+#you can also use the imperial unit of measurement (to do this, replace metric with imperial in the "units" parameter)
 url_weather = f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={API_KEY}&units=metric&lang={language}"
 weather_data = requests.get(url_weather).json()
 
