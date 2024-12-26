@@ -1,1 +1,1 @@
-This is the program that realizes the simpliest weather forecast on python. You can use it for practicing with API.
+This is a program that implements the simplest weather forecast in python. You can use it to practice working with the API.
