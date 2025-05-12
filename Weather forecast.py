@@ -2,7 +2,9 @@ import requests
 
 API_KEY = "your_api_key"
 city = "your_city"
+#the country code can be found at https://countrycode.org/ (you need to use the ISO code)
 country_code = "your_country_code"
+#the language ISO code can be found at https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 language = "your_language"
 
 url_city_coordinates = f"http://api.openweathermap.org/geo/1.0/direct?q={city},{country_code}&appid={API_KEY}"
